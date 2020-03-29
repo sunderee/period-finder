@@ -30,7 +30,7 @@ def plot_dataset(input_matrix: np.ndarray, x_axis_size: int):
     plt.show()
 
 
-def compute_autocorrelation(input_signal: np.ndarray) -> tuple:
+def compute_autocorrelation(input_signal: np.ndarray) -> np.ndarray:
     """
     Compute autocorrelation from the given discrete signal
     :param input_signal: the discrete signal we would like to process
