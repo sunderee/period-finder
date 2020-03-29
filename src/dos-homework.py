@@ -88,4 +88,4 @@ for autocorr in autocorrelation_list:
 # Filter through periods to find valid signals
 for i, period in enumerate(period_list):
     if period != -1.0:
-        print('Valid signal with index ' + str(i + 1) + ' and period ' + str(round(period, 2)))
+        print('Valid signal: index ' + str(i + 1) + ', period ' + str(int(period)) + ' samples')
