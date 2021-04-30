@@ -1,4 +1,4 @@
-# DOS Homework
+# Period Finder
 
 Transcript of homework instructions from Slovenian:
 
